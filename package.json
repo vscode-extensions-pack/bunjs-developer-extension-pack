@@ -1,7 +1,9 @@
 {
   "name": "bunjs-developer-extension-pack",
-  "displayName": "bunjs-developer-extension-pack",
+  "displayName": "Bunjs Developer Extension Pack",
   "description": "VS Code Extensions for BunJs Developer",
+  "icon": "icon.png",
+  "publisher": "sumanta",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.74.0"
@@ -9,5 +11,28 @@
   "categories": [
     "Extension Packs"
   ],
-  "extensionPack": []
+  "extensionPack": [
+    "formulahendry.code-runner"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vscode-extensions-pack/bunjs-developer-extension-pack.git"
+  },
+  "keywords": [
+    "bun",
+    "bunjs",
+    "bun extension",
+    "extension",
+    "extension pack",
+    "bunjs developer extension",
+    "bun developer extension",
+    "bunjs developer",
+    "bun developer"
+  ],
+  "author": "Sumanta Kabiraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vscode-extensions-pack/bunjs-developer-extension-pack/issues"
+  },
+  "homepage": "https://github.com/vscode-extensions-pack/bunjs-developer-extension-pack#readme"
 }
